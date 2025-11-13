@@ -63,4 +63,8 @@ Menampilkan daftar artikel berita dengan gambar, judul, dan ringkasan singkat. D
 
 ---
 
-✨ *Aplikasi ini merupakan hasil tugas UTS yang menampilkan penerapan berbagai layout dan widget dalam pengembangan aplikasi Android menggunakan Kotlin.*
+
+## ▶️ Cara Menjalankan Proyek
+Clone repository :
+```bash
+   git clone https://github.com/Rishamrcl/UTS_152022172_Risha-Marcella.git
