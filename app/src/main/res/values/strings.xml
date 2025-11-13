@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">UTS Risha Marcella</string>
+    <string name="judul">SimpleHub</string>
+    <string name="nama">Risha Marcella</string>
+    <string name="nim">152022172</string>
+    <string name="kelas">AA</string>
+
+    <!-- Menu / Navigation -->
+    <string name="home">Home</string>
+    <string name="biodata">My Profile</string>
+    <string name="kontak">Contacts</string>
+    <string name="kalkulator">Calculate</string>
+    <string name="berita">News</string>
+    <string name="cuaca">Weather</string>
+    <string name="cari">Search contacts</string>
+
+    <!-- Common -->
+    <string name="error">Error</string>
+    <string name="hello_blank_fragment">Hello Blank Fragment</string>
+    <string name="hint_tanggal_lahir">Date of birth</string>
+    <string name="label_gender_laki">Laki-laki</string>
+    <string name="label_gender_perempuan">Perempuan</string>
+
+    <string name="desc_icon">Icon</string>
+    <string name="desc_edit">Edit data</string>
+    <string name="desc_add">Tambah kontak</string>
+    <string name="desc_search">Cari kontak</string>
+    <string name="tidak_ada_kontak">Tidak ada nama kontak yang cocok</string>
+
+    <!-- Label & Value -->
+    <string name="label_name">NAME</string>
+    <string name="value_name">Risha Marcella</string>
+    <string name="label_nim">NIM</string>
+    <string name="label_kelas">KELAS</string>
+    <string name="label_jurusan">JURUSAN</string>
+    <string name="email">rishamarcella@gmail.com</string>
+    <string name="value_phone">0812-3456-7890</string>
+    <string name="label_phone">Phone Number</string>
+    <string name="label_alamat">Addres</string>
+    <string name="value_alamat">Jl. Mawar No. 12, Surabaya</string>
+    <string name="label_info">About Me</string>
+    <string name="value_info">Informatics Student</string>
+
+    <!-- Kalkulator -->
+    <string name="nol_awal">0</string>
+    <string name="C">C</string>
+    <string name="kurung">( )</string>
+    <string name="persen">%</string>
+    <string name="bagi">÷</string>
+    <string name="tujuh">7</string>
+    <string name="delapan">8</string>
+    <string name="sembilan">9</string>
+    <string name="kali">×</string>
+    <string name="empat">4</string>
+    <string name="lima">5</string>
+    <string name="enam">6</string>
+    <string name="kurang">–</string>
+    <string name="satu">1</string>
+    <string name="dua">2</string>
+    <string name="tiga">3</string>
+    <string name="tambah">+</string>
+    <string name="nol">0</string>
+    <string name="titik">.</string>
+    <string name="samadengan">=</string>
+    <string name="backspace">Backspace</string>
+
+    <string name="name">Nama</string>
+    <string name="nomor">No Telepon</string>
+    <string name="call">Call</string>
+    <string name="chat">Chat</string>
+
+    <!-- Kontak A -->
+    <string name="a1_name">Alexander Reyes</string>
+    <string name="a1_phone">0812-1111-2233</string>
+
+    <string name="a2_name">Amelia Carter</string>
+    <string name="a2_phone">0813-2233-4455</string>
+
+    <string name="a3_name">Ariana Gomez</string>
+    <string name="a3_phone">0812-5544-6677</string>
+
+    <!-- Kontak B -->
+    <string name="b1_name">Brandon Lee</string>
+    <string name="b1_phone">0821-3344-5566</string>
+
+    <!-- Kontak C -->
+    <string name="c1_name">Camila Rivera</string>
+    <string name="c1_phone">0831-7788-1122</string>
+
+    <string name="c2_name">Carter Wilson</string>
+    <string name="c2_phone">0813-8877-9922</string>
+
+    <!-- Kontak D -->
+    <string name="d1_name">Daniel Kim</string>
+    <string name="d1_phone">0812-9900-1122</string>
+
+    <string name="d2_name">Daisy Morgan</string>
+    <string name="d2_phone">0822-4411-2299</string>
+
+    <string name="d3_name">David Park</string>
+    <string name="d3_phone">0831-5566-7788</string>
+
+    <!-- Kontak E -->
+    <string name="e1_name">Ella Brown</string>
+    <string name="e1_phone">0812-3344-5566</string>
+
+    <string name="e2_name">Ethan Scott</string>
+    <string name="e2_phone">0813-9988-7766</string>
+
+    <string name="e3_name">Emily White</string>
+    <string name="e3_phone">0821-2211-3344</string>
+
+    <!-- Kontak F -->
+    <string name="f1_name">Felix Anderson</string>
+    <string name="f1_phone">0813-7766-5544</string>
+
+    <string name="f2_name">Fiona Davis</string>
+    <string name="f2_phone">0822-6677-8899</string>
+
+    <string name="f3_name">Franklin Harris</string>
+    <string name="f3_phone">0812-4455-6677</string>
+
+    <string-array name="jenis_kelamin_array">
+        <item>Select gender</item>
+        <item>Man</item>
+        <item>Woman</item>
+    </string-array>
+
+    <string name="weather_icon">weather_icon</string>
+    <string name="mostly_cloudy">Mostly Cloudy</string>
+    <string name="humidity_icon">humidity_icon</string>
+    <string name="wind_icon">wind_icon</string>
+    <string name="rain_icon">rain_icon</string>
+    <string name="menu_icon">menu_icon</string>
+    <string name="location_icon">location_icon</string>
+
+    <string name="location_bandung">Bandung</string>
+    <string name="status_mostly_cloudy">Mostly Cloudy</string>
+    <string name="date_time_sample">Mon June 17 | 10:00 AM</string>
+    <string name="temp_25">25°</string>
+    <string name="temp_high_low">H:27  L:18</string>
+
+    <string name="rain_percent">22%</string>
+    <string name="rain">Rain</string>
+
+    <string name="wind_speed_value">12 km/h</string>
+    <string name="wind_speed">Wind speed</string>
+
+    <string name="humidity_percent">18%</string>
+    <string name="humidity">Humidity</string>
+
+    <string name="today">Today</string>
+    <string name="next_7_day">Next 7 Day &gt;</string>
+</resources>

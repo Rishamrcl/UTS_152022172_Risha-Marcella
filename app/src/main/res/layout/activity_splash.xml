@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="@color/primary">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/judul"
+            style="@style/SplashTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/judul"
+            android:fontFamily="@font/momosignature"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark"
+            android:letterSpacing="0.05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- FOTO -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/foto"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/foto"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="40dp"
+            app:shapeAppearanceOverlay="@style/CircleImageStyle"
+            app:layout_constraintTop_toBottomOf="@id/judul"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- NAMA -->
+        <TextView
+            android:id="@+id/nama"
+            android:fontFamily="@font/quicksand_bold"
+            style="@style/SplashName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nama"
+            android:textSize="18sp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/dark"
+            app:layout_constraintTop_toBottomOf="@id/foto"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- NIM -->
+        <TextView
+            android:id="@+id/nim"
+            android:fontFamily="@font/nunito"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nim"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/dark"
+            app:layout_constraintTop_toBottomOf="@id/nama"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- PROGRESS BAR -->
+        <ProgressBar
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="200dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="25dp"
+            android:indeterminate="true"
+            android:indeterminateTint="@color/dark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/nim" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

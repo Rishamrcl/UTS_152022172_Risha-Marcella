@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/biodata"
+        android:id="@+id/biodata"
+        android:icon="@drawable/outline_frame_person_24"/>
+    <item android:title="@string/kontak"
+        android:id="@+id/kontak"
+        android:icon="@drawable/baseline_contacts_24"/>
+    <item android:title="@string/kalkulator"
+        android:id="@+id/kalkulator"
+        android:icon="@drawable/baseline_calculate_24"/>
+    <item android:title="@string/cuaca"
+        android:id="@+id/cuaca"
+        android:icon="@drawable/baseline_cloud_24"/>
+    <item android:title="@string/berita"
+        android:id="@+id/berita"
+        android:icon="@drawable/outline_breaking_news_24"/>
+</menu>
